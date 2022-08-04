@@ -22,6 +22,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'ao5z(o(z@cvzodm99d32jkxa5e8a1!q_4sqss5-a%n6tg$#h$+'
 
+IAM_API_KEY = "ng9v3anfOCobH63DPcohiQERqqu4Bdcm-oXVH40ntjU5"
+COUCH_URL = "https://20c446e9-b7d6-47c4-9aba-260d13815831-bluemix.cloudantnosqldb.appdomain.cloud"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
