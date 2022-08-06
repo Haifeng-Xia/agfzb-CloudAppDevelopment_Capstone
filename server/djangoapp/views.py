@@ -123,7 +123,7 @@ def get_dealer_details(request, dealer_id, dealer_name):
     dealer_reviews = []
 
     if request.method == "GET":
-        url = "https://ac626f21.us-south.apigw.appdomain.cloud/api/review?dealerId={}".format(dealer_id)
+        url = "https://ac626f21.us-south.apigw.appdomain.cloud/api/review?dealership={}".format(dealer_id)
         reviews = get_dealer_reviews_from_cf(url, dealer_id)
 
         for review in reviews:
